@@ -1,0 +1,34 @@
+{
+  "name": "html-storybook",
+  "version": "1.0.0",
+  "description": "If you are looking for a storybook setup that allow you to use storybook and html output.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ncorre/html-storybook.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ncorre/html-storybook/issues"
+  },
+  "homepage": "https://github.com/ncorre/html-storybook#readme",
+  "devDependencies": {
+    "@babel/core": "^7.15.5",
+    "@storybook/addon-actions": "^6.3.8",
+    "@storybook/addon-essentials": "^6.1.21",
+    "@storybook/addon-links": "^6.3.8",
+    "@storybook/html": "^6.1.21",
+    "babel-loader": "^8.2.2",
+    "storybook-addon-storyout": "^1.0.1"
+  },
+  "dependencies": {
+    "@storybook/addon-a11y": "^6.3.8"
+  }
+}
