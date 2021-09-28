@@ -1,8 +1,11 @@
 # HTML STORYBOOK SETUP
 
-node version I'm using for this project : node/16.10.0
-npm version : 7.18.1
-yarn version : 1.22.10
+it's not easy to find documentation (up-to-date Documentation) and examples for Storybook with HTML requirements. This setup will allow you to work with atomic approach (Atoms/Molecules/Organisms/Templates/Pages) using js files and stories. Thanks to Storyout you will be able to export your components as HTML code. You can use Controls and actions.
+
+
+node version I'm using for this project : node/16.10.0 \
+npm version : 7.18.1 \
+yarn version : 1.22.10 \
 Storybook version : 6.1.21
 
 ## Project and Storybook Setup
@@ -24,7 +27,7 @@ to lunch Storybook.
 ```javascript
 import { withSource, html } from 'storybook-addon-storyout';
 
-const render = html(); // <-- initialize the html renderer
+const render = html();
 
 export default {
   title: 'Button',
